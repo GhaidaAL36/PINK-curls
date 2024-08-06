@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat" , sans-serif;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth; /*smooth scolling in the page , instead of jumping*/
+}
+
+:root{
+  --bg-color:#fff; /* background color */
+  --main-color: #ffcad5; /* main color to primary elements */
+  --text-color: #010101;
+  --2nd-color: #434343;
+  --other-color: #666666;
+  --big-font: 5rem;
+  --h2-font : 2.3rem;
+  --p-font : 1.3rem;
+}
+
+body{
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+
+
+@media (max-width: 1200px) {
+  header{
+    padding: 12px 3%;
+  }
+  section{
+    padding: 40px 3% 50px;
+  }
+}
+
+@media (max-width: 640px){
+  :root{
+  --big-font: 3.8rem;
+  --h2-font : 2rem;
+  --p-font : 1.1rem;
+  }
+}

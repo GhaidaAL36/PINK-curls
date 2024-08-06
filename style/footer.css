@@ -1,0 +1,61 @@
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit ,minmax(200px , auto));
+  gap: 2.5rem;
+  background: #393a3a;
+}
+
+.contact-box h4{
+  margin-bottom: 1.5rem;
+  font-size: 18px;
+  color: var(--bg-color);
+}
+
+.contact-box li{
+  margin-bottom: 18px;
+}
+
+.contact-box li a{
+  display: block;
+  color: #999999;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all .50s ease;
+}
+
+.contact-box li a:hover{
+  transform: translatex(-7px);
+  color: var(--main-color);
+}
+
+.contact-box h5{
+  font-size: 16px;
+  font-weight: 600;
+  color: #999999;
+}
+
+.accounts{
+  display: flex;
+  margin-top: 1.8rem;
+}
+
+.accounts i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 37px;
+  width: 37px;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+  background:transparent ;
+  color: var(--main-color);
+  font-size: 20px;
+  margin-right: 1.1rem;
+  transition: all .50s ease;
+}
+
+.accounts i:hover{
+  background: var(--main-color);
+  color: var(--bg-color);
+  transform: scale(1.1);
+}
